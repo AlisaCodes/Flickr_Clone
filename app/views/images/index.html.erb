@@ -1,8 +1,9 @@
 <h1>Images</h1>
 
-<h2><% @images.each do |image| %>
-    <h2> <%= image.url %></h2>
+<h2><% @user.images.each do |image| %>
+    <h2> <%= image_tag image.photo %></h2>
     <% end %>
 </h2>
 
-<%= link_to "New Image", new_image_path %>
+<%= link_to "New Image", new_user_image_path %>
+<%= image_tag current_user.images %>

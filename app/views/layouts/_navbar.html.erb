@@ -6,10 +6,11 @@
   Logged in as <strong><%= current_user.email %></strong>.
   <div class="round-image-50"><%= image_tag(current_user.avatar.url(:thumb)) %></div>
   <%= link_to 'Edit profile', edit_user_registration_path %> |
-  <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+  <%= link_to "Logout", destroy_user_session_path, method: :delete %> |
+  <%= link_to "Visit Account", user_path(current_user) %>
 <% else %>
   <%= link_to "Sign up", new_user_registration_path %> |
-  <%= link_to "Login", new_user_session_path %>
+  <%= link_to "Login", new_user_session_path %> |
 <% end %>
 
 </div>
