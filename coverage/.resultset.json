@@ -1,12 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/Flickr_Clone/spec/models/image_spec.rb": [
+      "/Users/Guest/Desktop/Flickr_Clone/spec/features/add_user_pages_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/Guest/Desktop/Flickr_Clone/spec/rails_helper.rb": [
@@ -503,8 +521,8 @@
         1,
         null,
         1,
-        0,
-        0,
+        3,
+        2,
         null,
         null
       ],
@@ -572,6 +590,14 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/Flickr_Clone/spec/models/image_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
       "/Users/Guest/Desktop/Flickr_Clone/spec/models/user_spec.rb": [
         1,
         null,
@@ -581,6 +607,6 @@
         null
       ]
     },
-    "timestamp": 1445555741
+    "timestamp": 1445556041
   }
 }
